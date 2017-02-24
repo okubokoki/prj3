@@ -4,8 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - DifficultyImage
   - DifficultyCollider
+  - stageeria
+  - Enemy
   layers:
   - Default
   - TransparentFX

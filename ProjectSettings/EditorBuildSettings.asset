@@ -13,5 +13,9 @@ EditorBuildSettings:
     path: Assets/VR-Step/Demo Scenes/JumpGame.unity
   - enabled: 0
     path: Assets/GameScene.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/Sample.unity
+  - enabled: 0
+    path: Assets/Sample2.unity
+  - enabled: 1
+    path: Assets/sample stage.unity

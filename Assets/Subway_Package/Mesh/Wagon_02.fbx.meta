@@ -1,0 +1,177 @@
+fileFormatVersion: 2
+guid: c61b83c3048094f4989ab8735be5fa82
+timeCreated: 1475862365
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bogie_SmallWheels1
+    100002: Bogie_SmallWheels1 1
+    100004: Bogie_SmallWheels2
+    100006: Bogie_SmallWheels2 1
+    100008: Bogie_SmallWheels3
+    100010: Bogie_SmallWheels3 1
+    100012: Bogie_SmallWheels4
+    100014: Bogie_SmallWheels4 1
+    100016: Bogie_Structure
+    100018: Bogie_Structure 1
+    100020: Bogie_Wheels
+    100022: Bogie_Wheels 1
+    100024: Bogie_Wheels1
+    100026: Bogie_Wheels1 1
+    100028: Bogie_Wheels2
+    100030: Bogie_Wheels2 1
+    100032: Bogie_Wheels3
+    100034: Bogie_Wheels3 1
+    100036: Wagon02_Chasis
+    100038: Wagon02_Front_Bogie
+    100040: Wagon02_Rear_Bogie
+    100042: //RootNode
+    100044: Wagon_02 1
+    400000: Bogie_SmallWheels1
+    400002: Bogie_SmallWheels1 1
+    400004: Bogie_SmallWheels2
+    400006: Bogie_SmallWheels2 1
+    400008: Bogie_SmallWheels3
+    400010: Bogie_SmallWheels3 1
+    400012: Bogie_SmallWheels4
+    400014: Bogie_SmallWheels4 1
+    400016: Bogie_Structure
+    400018: Bogie_Structure 1
+    400020: Bogie_Wheels
+    400022: Bogie_Wheels 1
+    400024: Bogie_Wheels1
+    400026: Bogie_Wheels1 1
+    400028: Bogie_Wheels2
+    400030: Bogie_Wheels2 1
+    400032: Bogie_Wheels3
+    400034: Bogie_Wheels3 1
+    400036: Wagon02_Chasis
+    400038: Wagon02_Front_Bogie
+    400040: Wagon02_Rear_Bogie
+    400042: //RootNode
+    400044: Wagon_02 1
+    2300000: Bogie_SmallWheels1
+    2300002: Bogie_SmallWheels1 1
+    2300004: Bogie_SmallWheels2
+    2300006: Bogie_SmallWheels2 1
+    2300008: Bogie_SmallWheels3
+    2300010: Bogie_SmallWheels3 1
+    2300012: Bogie_SmallWheels4
+    2300014: Bogie_SmallWheels4 1
+    2300016: Bogie_Structure
+    2300018: Bogie_Structure 1
+    2300020: Bogie_Wheels
+    2300022: Bogie_Wheels 1
+    2300024: Bogie_Wheels1
+    2300026: Bogie_Wheels1 1
+    2300028: Bogie_Wheels2
+    2300030: Bogie_Wheels2 1
+    2300032: Bogie_Wheels3
+    2300034: Bogie_Wheels3 1
+    2300036: Wagon02_Chasis
+    2300038: Wagon_02 1
+    3300000: Bogie_SmallWheels1
+    3300002: Bogie_SmallWheels1 1
+    3300004: Bogie_SmallWheels2
+    3300006: Bogie_SmallWheels2 1
+    3300008: Bogie_SmallWheels3
+    3300010: Bogie_SmallWheels3 1
+    3300012: Bogie_SmallWheels4
+    3300014: Bogie_SmallWheels4 1
+    3300016: Bogie_Structure
+    3300018: Bogie_Structure 1
+    3300020: Bogie_Wheels
+    3300022: Bogie_Wheels 1
+    3300024: Bogie_Wheels1
+    3300026: Bogie_Wheels1 1
+    3300028: Bogie_Wheels2
+    3300030: Bogie_Wheels2 1
+    3300032: Bogie_Wheels3
+    3300034: Bogie_Wheels3 1
+    3300036: Wagon02_Chasis
+    3300038: Wagon_02 1
+    4300000: Bogie_Wheels
+    4300002: Bogie_Wheels1
+    4300004: Bogie_Wheels2
+    4300006: Bogie_Wheels3
+    4300008: Bogie_SmallWheels1
+    4300010: Bogie_SmallWheels2
+    4300012: Bogie_SmallWheels3
+    4300014: Bogie_SmallWheels4
+    4300016: Bogie_Structure
+    4300018: Bogie_Wheels
+    4300020: Bogie_Wheels1
+    4300022: Bogie_Wheels2
+    4300024: Bogie_Wheels3
+    4300026: Bogie_SmallWheels1
+    4300028: Bogie_SmallWheels2
+    4300030: Bogie_SmallWheels3
+    4300032: Bogie_SmallWheels4
+    4300034: Bogie_Structure
+    4300036: Wagon_02
+    4300038: Wagon02_Chasis
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
