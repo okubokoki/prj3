@@ -21,7 +21,7 @@ public class CarsSpawnerRight : MonoBehaviour
 
     }
 
-    void OnCollisionEnter(Collision other)
+    private void OnTriggerEnter(Collider other)
     {
         var car = other.gameObject.GetComponent<Car>();
         if (car == null) return;
@@ -32,7 +32,7 @@ public class CarsSpawnerRight : MonoBehaviour
         //var obj = Instantiate(cars[0], SpawnPosition.transform.position, Quaternion.Euler(0f, 90f, 0f));
 
         car.transform.position = SpawnPosition.transform.position;
-
+        
         //Instantiate<GameObject>(cars[0]);
         //obj.transform.localRotation = transform.rotation;
         //obj.transform.forward = transform.forward;

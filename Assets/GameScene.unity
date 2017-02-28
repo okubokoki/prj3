@@ -110,6 +110,7 @@ GameObject:
   m_Component:
   - component: {fileID: 303553198}
   - component: {fileID: 303553197}
+  - component: {fileID: 303553199}
   m_Layer: 0
   m_Name: CreateStage
   m_TagString: Untagged
@@ -123,21 +124,19 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 303553196}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5e40d3b2c8c99ad42b2a89af7be97da9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  road1: {fileID: 282841145}
+  road2: {fileID: 944583834}
+  road3: {fileID: 97672043}
+  road4: {fileID: 1029791244}
+  road5: {fileID: 0}
+  road6: {fileID: 0}
   player: {fileID: 1648823252}
-  stageTips:
-  - {fileID: 1071598320147386, guid: e90cb5248a0bb69419ac9e0406894a4e, type: 2}
-  - {fileID: 944583834}
-  - {fileID: 97672043}
-  - {fileID: 1029791244}
-  startTipIndex: 1
-  preInstantiate: 5
-  generatedStageList:
-  - {fileID: 282841145}
+  enemy: {fileID: 0}
 --- !u!4 &303553198
 Transform:
   m_ObjectHideFlags: 0
@@ -151,6 +150,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &303553199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 303553196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e61225165edd6b468af242c5648bd1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  road1: {fileID: 0}
+  road2: {fileID: 0}
+  stages:
+  - {fileID: 282841145}
+  - {fileID: 944583834}
+  - {fileID: 97672043}
+  - {fileID: 1029791244}
+  createStage: {fileID: 0}
+  player: {fileID: 1648823252}
+  createCount: 0
+  oldStage: {fileID: 0}
+  createStagePosition: 0
+  startstage: {fileID: 0}
+  startStagePosition: 0
 --- !u!1 &608140970 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 153776, guid: e8ed1c00ee0d9044eb03f7580d226762, type: 2}
@@ -166,12 +190,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af1079924ad0d9b4a974346c466ddb90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  car1: {fileID: 0}
-  car2: {fileID: 0}
-  car3: {fileID: 0}
-  car4: {fileID: 0}
-  car5: {fileID: 0}
-  coll: {fileID: 0}
+  cars: []
+  SpawnPosition: {fileID: 0}
 --- !u!1001 &795024088
 Prefab:
   m_ObjectHideFlags: 0
@@ -356,12 +376,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af1079924ad0d9b4a974346c466ddb90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  car1: {fileID: 608140970}
-  car2: {fileID: 608140970}
-  car3: {fileID: 0}
-  car4: {fileID: 0}
-  car5: {fileID: 0}
-  coll: {fileID: 0}
+  cars: []
+  SpawnPosition: {fileID: 0}
 --- !u!4 &1141282721
 Transform:
   m_ObjectHideFlags: 0

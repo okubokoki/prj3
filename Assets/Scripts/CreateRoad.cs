@@ -21,7 +21,7 @@ public class CreateRoad : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        stages = new GameObject[] { road1, road2, };
+        
         startStagePosition = road1.GetComponent<Renderer>().bounds.size.z / 2;
         oldStage = startstage;
     }
